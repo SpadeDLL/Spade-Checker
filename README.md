@@ -16,3 +16,19 @@ Fast discord token checker
 | Enjoy :3                                            |
 <=====================================================>
 ```
+
+## Compile src to exe (pyinstaller)
+```
+pip install pyinstaller
+
+pyinstaller --onefile main.py
+```
+
+## Compile src to exe (nuitka)
+```
+pip install nuitka
+
+nuitka --onefile --standalone main.py
+```
+
+Star if you want more projects.
