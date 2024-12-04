@@ -7,11 +7,11 @@ import aiohttp
 import asyncio
 from colorama import Style
 
-cyan = "\033[1;36m"
-red = "\033[1;31m"
+cyan = "\033[38;5;159m"
+pink = "\033[38;5;218m"
 green = "\033[1;32m"
 yellow = "\033[1;33m"
-pink = "\033[1;95m"
+red = "\033[1;31m"
 white = "\033[1;37m"
 r = Style.RESET_ALL
 
