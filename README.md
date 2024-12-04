@@ -2,6 +2,7 @@
 Fast discord token checker
 
 ## tutorial
+```
 <=====================================================>
 | Place your tokens in input/tokens.txt               |
 | Each line = new token                               |
@@ -14,3 +15,4 @@ Fast discord token checker
 | Put a delay                                         |
 | Enjoy :3                                            |
 <=====================================================>
+```
