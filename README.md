@@ -18,7 +18,7 @@ Fast discord token checker
 ```
 
 ## Images
-![image](https://github.com/user-attachments/assets/fe2af96d-b67d-483a-8d41-9e7457c2d02e)
+![image](https://github.com/user-attachments/assets/4e947be9-b73f-42db-ab53-38e992b9394c)
 
 
 
