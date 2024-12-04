@@ -15,15 +15,7 @@ red = "\033[1;31m"
 white = "\033[1;37m"
 r = Style.RESET_ALL
 
-logging.basicConfig(
-    level=logging.INFO,
-    format=f"{white}[{r}%(asctime)s{white}]{r} - {cyan}%(levelname)s{r} - {pink}%(message)s{r}",
-    datefmt=f"{pink}%H{r}{cyan}:{r}{pink}%M{r}{cyan}:{r}{pink}%S{r}",
-    handlers=[
-        logging.FileHandler("checker.log"),
-        logging.StreamHandler()
-    ]
-)
+logging.basicConfig(level=logging.INFO, format=f"{white}[{r}%(asctime)s{white}]{r} - {cyan}%(levelname)s{r} - {pink}%(message)s{r}", datefmt=f"{pink}%H{r}{cyan}:{r}{pink}%M{r}{cyan}:{r}{pink}%S{r}", handlers=[logging.FileHandler("checker.log"), logging.StreamHandler()])
 
 logo = f"""{pink}
 
