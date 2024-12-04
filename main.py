@@ -48,13 +48,13 @@ class TokenChecker:
         print(logo)
 
     def validate_tokens(self, tokens: List[str]) -> List[str]:
-        valid_prefixes = ('MT', 'Nz', 'OT', 'OD', 'Nj', 'NT')
-        cleaned_tokens = []
+        starts = ('MT', 'Nz', 'OT', 'OD', 'Nj', 'NT')
+        realtokens = []
         for token in tokens:
             token = token.replace('"', '').replace("'", '').strip()
-            if token.startswith(valid_prefixes):
-                cleaned_tokens.append(token)
-        return cleaned_tokens
+            if token.startswith(starts):
+                realtokens.append(token)
+        return realtokens
 
     async def get(self) -> List[str]:
         try:
