@@ -39,7 +39,7 @@ class TokenChecker:
         os.system("title Token Checker")
         print(logo)
 
-    def validate_tokens(self, tokens: List[str]) -> List[str]:
+    def val(self, tokens: List[str]) -> List[str]:
         starts = ('MT', 'Nz', 'OT', 'OD', 'Nj', 'NT')
         realtokens = []
         for token in tokens:
@@ -53,7 +53,7 @@ class TokenChecker:
             with open(self.tokenn, "r") as file:
                 tokens = [line.strip() for line in file if line.strip()]
             
-            tokens = self.validate_tokens(tokens)
+            tokens = self.val(tokens)
             tokens = list(set(tokens))
             
             logging.info(f"Loaded {len(tokens)} valid tokens from {self.tokenn}")
